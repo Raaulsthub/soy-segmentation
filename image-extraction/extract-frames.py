@@ -21,7 +21,7 @@ def extract_frames(video_file: str, folder_path: str, img_folder: str, step: int
 def main():
     folder_path = './videos'
     for video_file in get_video_names(folder_path):
-        extract_frames(video_file, folder_path, 'images', 60)
+        extract_frames(video_file, folder_path, 'images', 20)
 
 
 def len_images():
