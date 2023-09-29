@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['caruru_weed', 'grassy_weed', 'soy_plant']
+
+roboflow:
+  workspace: weeds-d0as0
+  project: soy-weed-seg
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/weeds-d0as0/soy-weed-seg/dataset/2
