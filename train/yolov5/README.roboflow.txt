@@ -1,8 +1,8 @@
 
-soy-weed-seg - v2 2023-09-29 6:40pm
+soy-weed-seg - v4 2023-10-02 7:44am
 ==============================
 
-This dataset was exported via roboflow.com on September 29, 2023 at 9:41 PM GMT
+This dataset was exported via roboflow.com on October 2, 2023 at 8:42 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,17 +17,13 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 574 images.
+The dataset includes 1000 images.
 Soy, weeds are annotated in YOLO v5 PyTorch format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 640x640 (Stretch)
 
-The following augmentation was applied to create 2 versions of each source image:
-* Equal probability of one of the following 90-degree rotations: none, clockwise, counter-clockwise
-* Random rotation of between -15 and +15 degrees
-* Random shear of between -15° to +15° horizontally and -15° to +15° vertically
-* Random brigthness adjustment of between -15 and +15 percent
+No image augmentation techniques were applied.
 
 
