@@ -163,3 +163,4 @@ cython_debug/
 *.MP4
 *.pt 
 *.torchscript
+paper-files/*
