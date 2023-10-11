@@ -1,0 +1,1 @@
+''' python3 train/yolov5/segment/predict.py --weights ./train/runs/yolov5x-seg/weights/best.pt --source ./image-extraction/videos/20230114-GX010238.MP4 '''
